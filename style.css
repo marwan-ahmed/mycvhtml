@@ -101,13 +101,13 @@ ul{
   
 }
 
-.form-inline{
-  align-content: left;
-}
 
 .btn-outline-success{
   border-color:#2c3e50;
   color: white;
   
   
+}
+.form-inline{
+  float: right;
 }
