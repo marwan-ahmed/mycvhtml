@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
-
+<!-- 
+  authr " Marwan Ahmed"
+  from "Salahaddin - samarra"
+  orgnaztion "code for iraq"
+ -->
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="bootstrap.css">
@@ -17,12 +21,8 @@
       <div class="navbar-nav">
         <a class="nav-item nav-link" href="index.html">Home</a>
         <a class="nav-item nav-link" href="https://github.com/marwan-ahmed">My Github</a>
-        
-        
-        
       </div>
     </div>
-  </div>
   <form class="form-inline">
     <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
@@ -74,7 +74,6 @@
     </head>
     
     <body>
-      <!-- <div class="clock"> -->
         
         <span id=localtime></span>
         <script type="text/javascript">
@@ -96,13 +95,13 @@
             if (ww == 0) colorhead = "<font color=\"#FF0000\">";
               if (ww > 0 && ww < 6) colorhead = "<font color=\"#373737\">";
                 if (ww == 6) colorhead = "<font color=\"#008000\">";
-                  if (ww == 0) ww = "星期日";
-                  if (ww == 1) ww = "星期一";
-                  if (ww == 2) ww = "星期二";
-                  if (ww == 3) ww = "星期三";
-                  if (ww == 4) ww = "星期四";
-                  if (ww == 5) ww = "星期五";
-                  if (ww == 6) ww = "星期六";
+                  if (ww == 0) ww = "الاحد";
+                  if (ww == 1) ww = "الاثنين";
+                  if (ww == 2) ww = "الثلاثاء";
+                  if (ww == 3) ww = "الاربعاء";
+                  if (ww == 4) ww = "الخميس";
+                  if (ww == 5) ww = "الجمعة";
+                  if (ww == 6) ww = "السبت";
                   colorfoot = "</font>"
                   str = colorhead + yy + "-" + MM + "-" + dd + " " + hh + ":" + mm + ":" + ss + "  " + ww + colorfoot;
                   return (str);

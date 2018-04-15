@@ -265,8 +265,8 @@ select {
   text-transform: none;
 }
 
-button,
-html [type="button"],
+button,html
+[type="button"],
 [type="reset"],
 [type="submit"] {
   -webkit-appearance: button;

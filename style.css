@@ -1,3 +1,7 @@
+/* 
+  authr " Marwan Ahmed" from "Salahaddin - samarra" orgnaztion "code for iraq"
+*/
+
 body{
   margin: 0;
   padding: 0;
@@ -5,8 +9,10 @@ body{
   background-size: cover;
 }
 .clock {
-  background-color:white;
-  font-size: 20px;
+  background-color:#7492cb;
+  color: aliceblue;
+  border-radius: 10px;
+  font-size: 30px;
   width: fit-content;
   
   
@@ -30,11 +36,14 @@ body{
   font-size: 30px;
   letter-spacing: 4px;
   font-weight: 100;
+  animation: move 5s;
 }
+
+
 .box h5{
   font-size: 20px;
   letter-spacing: 3px;
-  font-weight: 100;
+  font-weight: 200px;
 }
 .box p{
   text-align: center;
@@ -110,4 +119,15 @@ ul{
 }
 .form-inline{
   float: right;
+}
+#localtime {
+  background-color:#dcdde1;
+  color: white;
+  border-radius: 10px;
+  font-size: 30px;
+  width:max-content;
+  font-family: cairo;
+  padding: 5px;
+  margin: 5px;
+  float:right;
 }
